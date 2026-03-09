@@ -126,7 +126,4 @@ function StatCard({ icon, label, value, bg, highlight = false }: { icon: React.R
       <div className="text-xs text-gray-500 mt-1">{label}</div>
     </div>
   )
-}
-export async function generateStaticParams() {
-  return []
-}
+
