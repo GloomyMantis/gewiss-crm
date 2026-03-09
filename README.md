@@ -5,7 +5,7 @@
 - **Backend/DB:** Supabase (PostgreSQL + Auth + Storage)
 - **Hosting:** Cloudflare Pages
 
-## Setup
+## Setup 
 
 ### 1. Supabase
 1. Create project at supabase.com
