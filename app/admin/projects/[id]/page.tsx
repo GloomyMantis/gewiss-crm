@@ -285,8 +285,6 @@ export default function AdminProjectDetailPage({ params }: { params: { id: strin
       )}
     </div>
   )
-}
-
 export async function generateStaticParams() {
   return []
 }
