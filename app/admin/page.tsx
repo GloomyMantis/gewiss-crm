@@ -127,3 +127,6 @@ function StatCard({ icon, label, value, bg, highlight = false }: { icon: React.R
     </div>
   )
 }
+export async function generateStaticParams() {
+  return []
+}
