@@ -197,7 +197,6 @@ export default function EditProjectPage({ params }: { params: { id: string } }) 
     </div>
   )
 }
-}
 
 export async function generateStaticParams() {
   return []
