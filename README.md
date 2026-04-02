@@ -5,10 +5,10 @@
 - **Backend/DB:** Supabase (PostgreSQL + Auth + Storage)
 - **Hosting:** Cloudflare Pages
 
-## Setup 
+## Setup
 
-### 1. Supabase 
-1. Create project at supabase.com 
+### 1. Supabase
+1. Create project at supabase.com
 2. Run `supabase/migrations/001_initial_schema.sql` in SQL Editor
 3. Create admin user: Authentication → Users → Add User (email: `admin@gewiss.local`)
 4. Run SQL: `UPDATE public.users SET username='admin', company_name='Gewiss Romania', role='admin' WHERE id='<uuid>';`
